@@ -1,7 +1,4 @@
-@font-face {
-    font-family: Gasalt-Black;
-    src: url(/fonts/Gasalt-Black.ttf);
-}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 80px;
@@ -27,6 +24,8 @@ body{
     text-transform: uppercase;
     text-align: center;
     font-family: Gasalt-Black;
+    font-weight: bold;
+    font-size: 40px;
 }
 .bio {
     margin: 40px;
@@ -51,3 +50,9 @@ body{
     height: 20px;
 }
     
+@font-face {
+    font-family: 'Gasalt-Black';
+    src: url(../fonts/Gasalt-Black.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
